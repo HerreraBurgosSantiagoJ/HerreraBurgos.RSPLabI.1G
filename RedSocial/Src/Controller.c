@@ -96,7 +96,6 @@ int ctlr_showList(LinkedList* this)
 */
     int isError = 1;
     int length;
-    sUser*
     length = ll_len(this);
     progHeader(PRONAME);
     subHeader("Mostrar Datos");
@@ -122,9 +121,9 @@ aparezcan posteos con más de 5000 likes.
     bestPost = ll_fillter(this,usr_excPopular,(void*)5000);
     if(bestPost!=NULL)
     {
-        printf("\nSe guardara un archivo en la carpeta \"Excluded\" en la ubicacion de este programa");
-        printf("\nBajo el nombre \"Mejores Posteos.txt\" con los datos filltrados");
-        isError = save_usersData(bestPost,"..\Excluded\Mejores Posteos.txt");
+        printf("\nSe guardara un archivo en la carpeta \" Excluded \" en la ubicacion de este programa");
+        printf("\nBajo el nombre \" Mejores Posteos.txt \" con los datos filltrados");
+        isError = save_usersData(bestPost,"../Excluded/Mejores Posteos.txt");
     }
     else
     {
@@ -152,7 +151,7 @@ posts donde la cantidad de dislikes supere a la de likes.
     {
         printf("\nSe guardara un archivo en la carpeta \" Excluded \" en la ubicacion de este programa");
         printf("\nBajo el nombre \" Mas Odiados.txt \" con los datos filltrados");
-        isError = save_usersData(hattedPosts,"..\Excluded\Mas Odiados.txt");
+        isError = save_usersData(hattedPosts,"../Excluded/Mas Odiados.txt");
     }
     else
     {
