@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="standartTitle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/standartTitle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/standartTitle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Heathers/Controller.h" />
+		<Unit filename="Heathers/LinkedList.h" />
+		<Unit filename="Heathers/Parser.h" />
+		<Unit filename="Heathers/boolib.h" />
+		<Unit filename="Heathers/mesure.h" />
+		<Unit filename="Heathers/pntmenu.h" />
+		<Unit filename="Heathers/sUser.h" />
+		<Unit filename="Heathers/steart.h" />
+		<Unit filename="Heathers/utn.h" />
+		<Unit filename="Heathers/valib.h" />
+		<Unit filename="Src/Controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/LinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/Parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/boolib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/mesure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/pntmenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/sUser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/steart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/utn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/valib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

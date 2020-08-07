@@ -1,0 +1,8 @@
+
+    srand (time(NULL));  // esta linea va al inicio de main
+    int aleatorio;
+   
+    aleatorio = rand()%( valorMaximo - vamolMinimo +1) + valorMinimo; // esta linea va en la funcion que asigna el tiempo
+     
+  
+

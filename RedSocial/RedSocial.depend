@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1596756479 source:c:\users\santi\desktop\herreraburgos.rsplabi.1g\redsocial\src\suser.c
+	"../Heathers/sUser.h"
+	"../Heathers/LinkedList.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1596756478 c:\users\santi\desktop\herreraburgos.rsplabi.1g\redsocial\heathers\suser.h
+	"LinkedList.h"
+
+1596578534 c:\users\santi\desktop\herreraburgos.rsplabi.1g\redsocial\heathers\linkedlist.h
+
